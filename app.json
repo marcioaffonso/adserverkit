@@ -1,9 +1,10 @@
 {
-  "name": "OpenTok ServiceKit PHP",
-  "description": "An OpenTok Starter Kit for creating a customer service application",
+  "name": "OpenTok AdServerKit",
+  "description": "An OpenTok Kit for integration with an adserver and creating a customer service application",
   "keywords": [
     "WebRTC",
     "OpenTok",
+    "adserver",
     "customer service",
     "video",
     "chat",
@@ -23,8 +24,5 @@
       "required": true
     },
     "SLIM_MODE": "production"
-  },
-  "addons": [
-    "redistogo"
-  ]
+  }
 }
