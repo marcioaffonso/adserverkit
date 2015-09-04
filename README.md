@@ -29,7 +29,9 @@ An OpenTok Kit for integration with an adserver and creating a customer service 
    customer's page. The page requires two parameters in query string:
    -  `campaignId` -- Id of a campaign previously created on the adserver
    -  `bannerId` -- Id of the specific banner which was clicked by the user
-   -  Example of how the page has to be called: http://localhost/index.php?campaignId=5&bannerId=3
+   
+   Example of how the page has to be called:
+   - http://localhost/index.php?campaignId=5&bannerId=3
 
 2. You will be asked to allow access to your camera and microphone; allow them.
 
