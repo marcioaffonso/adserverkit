@@ -85,7 +85,7 @@ There are two methods available for metrics:
          - Sessionid: Id of the Session
 
 
-## Code and Conceptual Walkthrough
+## Conceptual Walkthrough
 
 ### Technologies
 
