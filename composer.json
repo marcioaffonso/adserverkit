@@ -1,0 +1,29 @@
+{
+    "name": "opentok/adserverkit",
+    "description": "An OpenTok Kit for integration with an adserver and creating a customer service application",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcio Affonso",
+            "email": "marcio_affonso@hotmail.com"
+        },
+        {
+            "name": "Ankur Oberoi",
+            "email": "aoberoi@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "ServerKit\\": "src/"
+      }
+    },
+    "require": {
+        "opentok/opentok": "~2.2",
+        "slim/slim": "~2.4",
+        "werx/config": "~1.0",
+        "php": ">=5.3.2"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    }
+}
