@@ -56,12 +56,12 @@ An OpenTok Kit for integration with an adserver and creating a customer service 
 
 ## View Metrics
 
-1. You can then see metrics about the calls for a specific campaign or banner (or even both).
+1. You can then see metrics about the calls for a specific campaign and banner.
 There are two methods available for metrics:
 
    -  /getAverageMetrics/[campaignId]/[bannerId]
       - This method returns a JSON with general information about sessions for the specified campaign
-      and banner (the parameters are optional). The object returned has the following properties:
+      and banner (bannerId parameter is optional). The object returned has the following properties:
          - TotalOfCalls: Number of calls
          - AnsweredCalls: Number of answered calls
          - NotAnsweredCalls: Number of not answered calls
@@ -71,7 +71,7 @@ There are two methods available for metrics:
 
    -  /getFullMetrics/[campaignId]/[bannerId]
       - This method returns a JSON with full information about all sessions for the specified campaign
-      and banner (the parameters are optional). The object returns an array of objects, on which each
+      and banner (bannerId parameter is optional). The object returns an array of objects, on which each
       of them has the following properties:
          - CampaignId: Id of the campaign
          - BannerId: Id of the banner
