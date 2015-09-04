@@ -1,4 +1,4 @@
-# OpenTok Server Kit 
+# OpenTok AdServer Kit 
 
 An OpenTok Kit for integration with an adserver and creating a customer service application.
 
@@ -25,7 +25,7 @@ An OpenTok Kit for integration with an adserver and creating a customer service 
 
 ## Usage
 
-1. You have to set your banner link url to the index page of the server kit, which will be the
+1. You have to set your banner link url to the index page of the adserver kit, which will be the
    customer's page. The page requires two parameters in query string:
    -  `campaignId` -- Id of a campaign previously created on the adserver
    -  `bannerId` -- Id of the specific banner which was clicked by the user
