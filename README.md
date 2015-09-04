@@ -29,7 +29,7 @@ An OpenTok Kit for integration with an adserver and creating a customer service 
    customer's page. The page requires two parameters in query string:
    -  `campaignId` -- Id of a campaign previously created on the adserver
    -  `bannerId` -- Id of the specific banner which was clicked by the user
-   Example of how the page has to be called: http://localhost/index.php?campaignId=5&bannerId=3
+   -  Example of how the page has to be called: http://localhost/index.php?campaignId=5&bannerId=3
 
 2. You will be asked to allow access to your camera and microphone; allow them.
 
@@ -58,7 +58,7 @@ An OpenTok Kit for integration with an adserver and creating a customer service 
 There are two methods available for metrics:
 
    -  /getAverageMetrics/[campaignId]/[bannerId]
-      This method returns a JSON with general information about sessions for the specified campaign
+      - This method returns a JSON with general information about sessions for the specified campaign
       and banner (the parameters are optional). The object returned has the following properties:
          - TotalOfCalls: Number of calls
          - AnsweredCalls: Number of answered calls
@@ -68,7 +68,7 @@ There are two methods available for metrics:
          - AvgCallDuration: Average time of duration of calls (seconds)
 
    -  /getFullMetrics/[campaignId]/[bannerId]
-      This method returns a JSON with full information about all sessions for the specified campaign
+      - This method returns a JSON with full information about all sessions for the specified campaign
       and banner (the parameters are optional). The object returns an array of objects, on which each
       of them has the following properties:
          - CampaignId: Id of the campaign
