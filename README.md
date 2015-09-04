@@ -50,7 +50,7 @@ An OpenTok Kit for integration with an adserver and creating a customer service 
    then more than one customer can also be serviced at a single time.
 
 6. Once either of the users chooses to "End" or if the customer leaves the page, the call will
-   complete. The representative needs to once again click on the "Next Customer" button to indicate
+   complete. The representative needs to once again click on the "Get Customer" button to indicate
    that he or she is ready to speak to another customer.
 
 

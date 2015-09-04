@@ -119,13 +119,7 @@ $app->post('/help/session', function () use ($app, $con, $opentok, $config) {
     $responseData = array(
         'apiKey' => $config->opentok('key'),
         'sessionId' => $session->getSessionId(),
-        'token' => $session->generateToken(
-            array(
-                'role'       => Role::MODERATOR,
-                'expireTime' => time()+(7 * 24 * 60 * 60), // in one week
-                'data'       => 'name=Hans Großer'
-            )
-        )
+        'token' => $session->generateToken()
     );
 
     $campaignId = $app->request->params('campaignId');

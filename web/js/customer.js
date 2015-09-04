@@ -114,7 +114,6 @@
     var self = this;
 
     this.connected = true;
-    alert(this.session.connection.data)
     this.session.publish(this.publisher, function(err) {
       // Handle publisher failing to connect
       if (err && err.code === 1013) {
